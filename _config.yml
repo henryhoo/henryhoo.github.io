@@ -4,7 +4,7 @@
 
 # Site
 title: jXh
-subtitle: Master's student in NCSU
+subtitle: Living and learning in Raleigh
 description:
 author: Henry He
 language: en
@@ -67,10 +67,12 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+#
 deploy:
-  type:git
-  repo:https://github.com/henryhoo/henryhoo.github.io/
-  branch:master
-
+  type: git
+  repo: https://github.com/henryhoo/henryhoo.github.io.git
+  branch: [master]
+  name: [henryhoo]
+  email: [497018787@qq.com]
 #avatar for nextT theme
 avatar: https://avatars1.githubusercontent.com/u/7495621?v=3&s=460
