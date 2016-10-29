@@ -1,3 +1,4 @@
-[submodule "themes/next"]
+[submodule "owntheme"]
 	path = themes/next
-	url = https://github.com/iissnan/hexo-theme-next
+	url = https://github.com/henryhoo/henryhoo.github.io.git
+	branch = theme
