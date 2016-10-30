@@ -5,7 +5,7 @@ tags: JAVA
 ---
 ##Both HashTable and HashMap implements Map interface.
 
-##Hashtable
+## Hashtable
 
 Hashtable is basically a data structure to retain values of key-value pair.
 
@@ -15,7 +15,7 @@ It is synchronized. It is slow. Only one thread can access in one time.
 HashTable rea thread safe.
 HashTable uses Enumerator to iterate through elements.
 
-##HashMap
+## HashMap
 
 Like Hashtable it also accepts key value pair.
 
@@ -25,7 +25,7 @@ It is not synchronized. It will have better performance.
 HashMap are not thread safe, but you can use Collections.synchronizedMap(new HashMap<K,V>())
 
 
-##HashSet
+## HashSet
 
 HashSet does not allow duplicate values.
 
