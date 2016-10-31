@@ -1,7 +1,9 @@
+---
 layout: hashtable
 title: Hashtable vs Hashmap vs Hashset in JAVA
 date: 2016-09-12 10:16:42
 tags: JAVA
+categories: Programming
 ---
 ##Both HashTable and HashMap implements Map interface.
 

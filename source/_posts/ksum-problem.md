@@ -1,7 +1,12 @@
 ---
 title: ksum problem
 date: 2016-09-14 22:18:28
-tags: Leetcode, Algorithms, ksum
+tags:
+- Leetcode
+- Algorithms
+- ksum
+categories: Programming
+
 ---
 #### General Idea
 If you have already read and implement the 3sum and 4sum by using the sorting approach: reduce them into 2sum at the end, you might already got the feeling that, all ksum problem can be divided into two problems:
