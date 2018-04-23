@@ -8,8 +8,9 @@ tags:
 categories: Programming
 ---
 The key for dp is to find the variables to represent the states and deduce the transition function. (aka find state -> find relation -> find constraints)
+<!-- more -->
 
-take [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) as an example:
+Take [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) as an example:
 
 ### Find state
 The natural states for this problem is the 3 possible transactions : **buy, sell, rest.**
