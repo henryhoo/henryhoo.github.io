@@ -82,3 +82,18 @@ deploy:
   branch: [master]
   name: [henryhoo]
   email: [497018787@qq.com]
+
+theme_config:
+  social:
+    GitHub: https://github.com/henryhoo || github
+    FB Page: https://www.facebook.com/jiaxi.henry.he || facebook
+    StackOverflow: https://stackoverflow.com/users/6211857/jiaxi-he || stack-overflow
+    Instagram: https://www.instagram.com/jiaxi_h || instagram
+  menu:
+    home: / || home
+    about: /about/ || user
+    tags: /tags/ || tags
+    categories: /categories/ || th
+  reward_comment: Donate
+  wechatpay: /images/wechatpay.jpg
+  other: /images/paypalpay.png
