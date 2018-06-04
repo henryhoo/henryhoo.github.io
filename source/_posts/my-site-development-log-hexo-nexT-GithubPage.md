@@ -6,7 +6,7 @@ tags:
 - nextT
 categories: UI
 ---
-I played with hexo to build my first personal website on 2016. Then it was untouched for a long time until today, I decided to pick things up and try to learn some UI staff with it. This page is mainly for log what I learn and do with my personal site.
+I played with hexo to build my first personal website on 2016. Then it was untouched for a long time until today, I decided to pick things up and try to learn some UI staff with it. This page is mainly for logging what I learnt and and how i used it on this site.
 <!-- more -->
 ## Add plugins
 ### Gitment comments
@@ -52,3 +52,6 @@ gitment:
 [打造个性超赞博客Hexo+NexT+GithubPages的超深度优化](https://reuixiy.github.io/technology/computer/computer-aided-art/2017/06/09/hexo-next-optimization.html)
 ### Version control
 [Using Git Submodules to Manage Your Custom Hexo Theme](http://jr0cket.co.uk/hexo/using-git-submodules-for-custom-hexo-theme.html)
+
+## To do
+1. add timeline on about page
