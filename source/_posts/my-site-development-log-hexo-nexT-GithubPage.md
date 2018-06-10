@@ -60,3 +60,4 @@ gitment:
 
 ## To do
 1. add timeline on about page
+2. Fix sidebar search button overflow (maybe need fix next/source/css/_schemes/Pisces/sidebar.styl)[reference](https://segmentfault.com/q/1010000005168540/a-1020000005169375)
