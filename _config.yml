@@ -84,6 +84,10 @@ deploy:
   email: [497018787@qq.com]
 
 theme_config:
+  scheme: Gemini
+  avatar: /images/avatar.jpg
+  sidebar:
+    display: always
   social:
     GitHub: https://github.com/henryhoo || github
     FB Page: https://www.facebook.com/jiaxi.henry.he || facebook
@@ -110,3 +114,7 @@ theme_config:
     client_secret: eefef5b8d79ba2ec15878ee3e547a2271476bf21 # EITHER this or proxy_gateway, Github access secret token for the Gitment
     proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
     redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
+  links_layout: inline
+  links:
+    Xingyao: http://xingyaohuang.com
+    Yiwen: https://yiwencui.wixsite.com/portfolio
