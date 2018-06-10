@@ -84,7 +84,8 @@ deploy:
   email: [497018787@qq.com]
 
 theme_config:
-  scheme: Gemini
+  baidu_analytics: 5cb1205e2ee7921b3a3636edfe6a588a
+  scheme: Muse
   avatar: /images/avatar.jpg
   sidebar:
     display: always
@@ -101,6 +102,15 @@ theme_config:
   reward_comment: Donate
   wechatpay: /images/wechatpay.jpg
   # other: /images/paypalpay.png
+  leancloud_visitors:
+    enable: true
+    app_id: zRg8LmYzOw19YgrvP6rkepru-gzGzoHsz
+    app_key: FsTvxeDNJU2y2eVJMIHoEn1r
+    # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
+    # If you don't care about security in lc counter and just want to use it directly
+    # (without hexo-leancloud-counter-security plugin), set the `security` to `false`.
+    security: false
+    betterPerformance: false
   gitment:
     enable: true
     mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
@@ -118,3 +128,15 @@ theme_config:
   links:
     Xingyao: http://xingyaohuang.com
     Yiwen: https://yiwencui.wixsite.com/portfolio
+  add_this_id: ra-5b1cfece61fa2af8
+  local_search:
+    enable: true
+    trigger: auto
+    # show top n results per article, show all results by setting to -1
+    top_n_per_article: 1
+    # unescape html strings to the readable one
+    unescape: true
+  footer:
+    # Specify the date when the site was setup.
+    # If not defined, current year will be used.
+    since: 2016

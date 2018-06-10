@@ -44,6 +44,11 @@ gitment:
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
 ```
+### Add various plugins based on [hexo document](http://theme-next.iissnan.com/third-party-services.html)
+  1. baidu analytics
+  2. addThis share
+  3. leancloud_visitors
+  4. Local Search
 
 ## Learning source
 ### Hexo
