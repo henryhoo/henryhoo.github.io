@@ -75,5 +75,39 @@ Judgement of fair price depends on perceived cost. We use this measurement becau
 #### Solution:
 Express your effort.
 
+### Loss aversion and endowment effect
+Gains make us happy but losses make us **really** miserable. And once you own something, you start to value more on what you will give up and less on what you will gain by exchanging it.
+#### Example:
+1. Prepaid commission for sales
+3. students who have a mug not want to exchange it for a candy from students who have candy, same for the opposite
+
+#### Application:
+2. 401k matching from company
+3. 30 days money back guarantee
+
+### Market and and social norms
+Gifts build up social capital, while money reduce it
+
+#### Example:
+1. Volunteer job vs paid job
+![](https://ws4.sinaimg.cn/large/006tKfTcgy1fseeuqa9fqj30tk0la78q.jpg)
+2. Benefits of company
+3. Late fine for parents if the pick up their kid too late. Small fine actually make parents more likely to be late.
+4. Complete contract reduce social norm, and make people hard to agree on the sprit of contact.
+
+#### Solution:
+Think of where you are at the range of social norm to market norm and if it is suitable.
+
+### Micro payments
+1. Keep price same make us easier to buy
+2. Consolidate multiple purchases reduce pain of paying
+3. Pre-paid option reduce micro-payment and reduce pain of paying
+4. Free version increate the barrier of purchase, largely
+
+#### Example:
+1. iTunes price are all $0.99
+2. the mircopricing experiment ![](https://ws2.sinaimg.cn/large/006tKfTcgy1fsefk0ay0hj31kw0sp4hf.jpg)
+
+
 ## Links
 [Book Notes of Predictably Irrational](https://blog.csdn.net/coslay/article/details/47859169)
