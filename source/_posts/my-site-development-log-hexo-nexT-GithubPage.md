@@ -58,6 +58,25 @@ gitment:
 ### Version control
 [Using Git Submodules to Manage Your Custom Hexo Theme](http://jr0cket.co.uk/hexo/using-git-submodules-for-custom-hexo-theme.html)
 
+## Cautions
+### Config override
+We should be careful with `config override`. If you want to override one item from a section, you should include other items of that section. For example, once I forget to declare other sections except "display" for sidebar config:
+```
+  sidebar:
+    display: always
+```
+This cause the theme config is missing other sections including "offset" which is critical to sidebar affix. So I have a [wrongly placed sidebar](https://github.com/theme-next/hexo-theme-next/issues/328). I should change to following config if I want to use sidebar:
+```
+  sidebar:
+    position: left
+    display: always
+    offset: 12
+    b2t: false
+    scrollpercent: false
+    onmobile: false
+```
+
 ## To do
 1. add timeline on about page
-2. Fix sidebar search button overflow (maybe need fix next/source/css/_schemes/Pisces/sidebar.styl)[reference](https://segmentfault.com/q/1010000005168540/a-1020000005169375)
+2. Add Chinese post page
+2. Improve config override, it cause pain in the ass!
