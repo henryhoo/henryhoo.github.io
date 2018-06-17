@@ -80,7 +80,7 @@
     root: '/',
     scheme: 'Pisces',
     version: '6.2.0',
-    sidebar: {"display":"always"},
+    sidebar: {"position":"left","display":"always","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: false,
     fastclick: false,
     lazyload: false,
@@ -110,7 +110,7 @@
 <meta property="og:site_name" content="Jiaxi He">
 <meta property="og:description" content="I played with hexo to build my first personal website on 2016. Then it was untouched for a long time until today, I decided to pick things up and try to learn some UI staff with it. This page is mainl">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-06-10T11:11:22.411Z">
+<meta property="og:updated_time" content="2018-06-17T09:10:00.542Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="My site development log">
 <meta name="twitter:description" content="I played with hexo to build my first personal website on 2016. Then it was untouched for a long time until today, I decided to pick things up and try to learn some UI staff with it. This page is mainl">
@@ -184,8 +184,10 @@
 
   
   
+    
+  
 
-  <div class="container  page-post-detail">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -392,7 +394,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-06-10 07:11:22" itemprop="dateModified" datetime="2018-06-10T07:11:22-04:00">2018-06-10</time>
+                <time title="Modified: 2018-06-17 05:10:00" itemprop="dateModified" datetime="2018-06-17T05:10:00-04:00">2018-06-17</time>
               
             
           </span>
@@ -486,9 +488,12 @@
 </ol>
 <h2 id="Learning-source"><a href="#Learning-source" class="headerlink" title="Learning source"></a>Learning source</h2><h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p><a href="https://thief.one/2017/03/03/Hexo搭建博客教程/" target="_blank" rel="noopener">Hexo搭建博客教程</a><br><a href="https://lovexinforever.github.io/2017/09/18/Hexo-NexT-博客搭建相册-二/" target="_blank" rel="noopener">Hexo+NexT 博客搭建相册</a><br><a href="https://reuixiy.github.io/technology/computer/computer-aided-art/2017/06/09/hexo-next-optimization.html" target="_blank" rel="noopener">打造个性超赞博客Hexo+NexT+GithubPages的超深度优化</a></p>
 <h3 id="Version-control"><a href="#Version-control" class="headerlink" title="Version control"></a>Version control</h3><p><a href="http://jr0cket.co.uk/hexo/using-git-submodules-for-custom-hexo-theme.html" target="_blank" rel="noopener">Using Git Submodules to Manage Your Custom Hexo Theme</a></p>
+<h2 id="Cautions"><a href="#Cautions" class="headerlink" title="Cautions"></a>Cautions</h2><h3 id="Config-override"><a href="#Config-override" class="headerlink" title="Config override"></a>Config override</h3><p>We should be careful with <code>config override</code>. If you want to override one item from a section, you should include other items of that section. For example, once I forget to declare other sections except “display” for sidebar config:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sidebar:</span><br><span class="line">  display: always</span><br></pre></td></tr></table></figure></p>
+<p>This cause the theme config is missing other sections including “offset” which is critical to sidebar affix. So I have a <a href="https://github.com/theme-next/hexo-theme-next/issues/328" target="_blank" rel="noopener">wrongly placed sidebar</a>. I should change to following config if I want to use sidebar:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">sidebar:</span><br><span class="line">  position: left</span><br><span class="line">  display: always</span><br><span class="line">  offset: 12</span><br><span class="line">  b2t: false</span><br><span class="line">  scrollpercent: false</span><br><span class="line">  onmobile: false</span><br></pre></td></tr></table></figure></p>
 <h2 id="To-do"><a href="#To-do" class="headerlink" title="To do"></a>To do</h2><ol>
 <li>add timeline on about page</li>
-<li>Fix sidebar search button overflow (maybe need fix next/source/css/_schemes/Pisces/sidebar.styl)<a href="https://segmentfault.com/q/1010000005168540/a-1020000005169375" target="_blank" rel="noopener">reference</a></li>
+<li>Add Chinese post page</li>
+<li>Improve config override, it cause pain in the ass!</li>
 </ol>
 
       
@@ -782,7 +787,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Add-plugins"><span class="nav-number">1.</span> <span class="nav-text">Add plugins</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Gitment-comments"><span class="nav-number">1.1.</span> <span class="nav-text">Gitment comments</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Create-OAuth-application"><span class="nav-number">1.1.1.</span> <span class="nav-text">Create OAuth application</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Create-repository-for-gitment"><span class="nav-number">1.1.2.</span> <span class="nav-text">Create repository for gitment</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Change-NexT-config"><span class="nav-number">1.1.3.</span> <span class="nav-text">Change NexT config</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Add-various-plugins-based-on-hexo-document"><span class="nav-number">1.2.</span> <span class="nav-text">Add various plugins based on hexo document</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Learning-source"><span class="nav-number">2.</span> <span class="nav-text">Learning source</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Hexo"><span class="nav-number">2.1.</span> <span class="nav-text">Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Version-control"><span class="nav-number">2.2.</span> <span class="nav-text">Version control</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#To-do"><span class="nav-number">3.</span> <span class="nav-text">To do</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Add-plugins"><span class="nav-number">1.</span> <span class="nav-text">Add plugins</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Gitment-comments"><span class="nav-number">1.1.</span> <span class="nav-text">Gitment comments</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Create-OAuth-application"><span class="nav-number">1.1.1.</span> <span class="nav-text">Create OAuth application</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Create-repository-for-gitment"><span class="nav-number">1.1.2.</span> <span class="nav-text">Create repository for gitment</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Change-NexT-config"><span class="nav-number">1.1.3.</span> <span class="nav-text">Change NexT config</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Add-various-plugins-based-on-hexo-document"><span class="nav-number">1.2.</span> <span class="nav-text">Add various plugins based on hexo document</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Learning-source"><span class="nav-number">2.</span> <span class="nav-text">Learning source</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Hexo"><span class="nav-number">2.1.</span> <span class="nav-text">Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Version-control"><span class="nav-number">2.2.</span> <span class="nav-text">Version control</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Cautions"><span class="nav-number">3.</span> <span class="nav-text">Cautions</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Config-override"><span class="nav-number">3.1.</span> <span class="nav-text">Config override</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#To-do"><span class="nav-number">4.</span> <span class="nav-text">To do</span></a></li></ol></div>
             
 
           </div>
@@ -804,7 +809,7 @@
       <div class="footer-inner">
         <div class="copyright">&copy; 2016 &mdash; <span itemprop="copyrightYear">2018</span>
   <span class="with-love" id="animate">
-    <i class="fa fa-"></i>
+    <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Jiaxi He</span>
 
@@ -816,9 +821,15 @@
 
 
 
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> v3.7.1</div>
 
 
 
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Pisces</a> v6.2.0</div>
 
 
 
