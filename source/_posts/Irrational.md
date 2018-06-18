@@ -108,6 +108,28 @@ Think of where you are at the range of social norm to market norm and if it is s
 1. iTunes price are all $0.99
 2. the mircopricing experiment ![](https://ws2.sinaimg.cn/large/006tKfTcgy1fsefk0ay0hj31kw0sp4hf.jpg)
 
+## Dishonesty
+
+### The model of rational crime
+1. Lots of people cheat a little bit.
+2. People will weight rewards of cheating, possibility of being caught and punishment (Becker model: cost benefits analyses).
+3. However, dishonesty does not solely rely on cost benefits analyses.
+4. So we should consider **fudge factor**: People will consider themselves moral if they cheat only a little bit.
+
+### Shrinking and expanding the fudge factor
+Cheating is all about how we rationalize it. Some example of manipulate it: 
+* Shrink
+
+  1. Being reminded of morality (however, remind afterward will not work).
+
+* Expand
+
+  1. Increase distant from money.
+  2. Social acceptance (seeing others from same social group cheat).
+  3. Creativity (Create story to defend yourself)
+
+#### Solution:
+Control small crimes, lots of small crimes may make a big difference.
 
 ## Links
 [Book Notes of Predictably Irrational](https://blog.csdn.net/coslay/article/details/47859169)
