@@ -80,3 +80,4 @@ This cause the theme config is missing other sections including "offset" which i
 1. add timeline on about page
 2. Add Chinese post page
 2. Improve config override, it cause pain in the ass!
+4. Add SEO

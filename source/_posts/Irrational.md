@@ -117,19 +117,92 @@ Think of where you are at the range of social norm to market norm and if it is s
 4. So we should consider **fudge factor**: People will consider themselves moral if they cheat only a little bit.
 
 ### Shrinking and expanding the fudge factor
-Cheating is all about how we rationalize it. Some example of manipulate it: 
-* Shrink
-
+Cheating is all about how we rationalize it. Some example of manipulate it:
+**Shrink**
   1. Being reminded of morality (however, remind afterward will not work).
 
-* Expand
-
+**Expand**
   1. Increase distant from money.
   2. Social acceptance (seeing others from same social group cheat).
   3. Creativity (Create story to defend yourself)
 
 #### Solution:
 Control small crimes, lots of small crimes may make a big difference.
+
+### Conflicts of interest
+Conflicts of interest operate within the fudge factor: People tend to rationalize towards benefits/rewards.
+
+#### Example:
+1. Data manipulate in science research.
+2. People like the art from gallery who give cash reward.
+
+#### Solution:
+Try to eliminate the result of interest conflict
+
+### Cheating Over time and across culture
+1. People start to cheat a little and at some point, they start to cheat a lot.
+2. Confession provide a way to **reset**, which cut down the way to cheat more.
+3. People shared the same basic fudge factor across cultures.
+3. However, culture can shrink/expand fudge factor on a specific domain.
+
+#### Application:
+Reconciliation act for South Africa
+
+### Guest speak
+1. **Medical decisions**: People tend to make different decision for their own than for others. (Peter Ubel)
+2. **Moral pendulum**: People tend to make up after doing bad / indulge after doing good. (Nina Mazar)
+
+## Labor and Motivation
+We are motivated to do things that we find meaningful.
+
+### Sisyphus condition (Meaning)
+Doing same job **repeatedly without meaning** will be demotivate. And in this case, their internal love for this procedure will not reduce their demotivation.
+
+### Acknowledgement
+1. It is relatively easy to make people feel good about their work. (Just a simple acknowledgement)
+2. In contrast, simply ignoring people can be as demotivating as destroying their work.
+
+#### Solution
+Inject more meaning to various situation.
+
+### IKEA effect (Labor)
+1. Labor lead to love.
+2. Builder mistakenly think everyone will love it.
+3. Labor lead to love only when builder finish the task and create something. (Too much effort will have negative effect)
+
+#### Example
+1. Your own child.
+2. Self-designed T-shirt/shoes.
+3. Girls chased by boys
+
+#### Application
+Customization is more about preference, but the effort people put in.
+
+#### Not-invented-here bias
+IKEA effect on idea: people love their solution than others.
+
+##### Solution
+We should love what we do but now too much.
+
+### Cognitive Dissonance
+We behave one way but don't believe in the same way. So we shift our belief afterwards.
+
+#### Example
+1. Boring task with high pay is boring while low pay is more interesting (people shift because they don't want to admit they are doing boring job for low payment)
+
+2. Zappos hiring process (People convince they love the company because they give up $2000 by deciding join the company)
+
+### Monetary Stress and Performance
+1. Bonus's effect follows Yerkes-Dodson Curve except it is only for pure mechanical task.
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fshfxxnscwj312k0mg76r.jpg)
+
+2. Keep getting bonus will lead to future loss aversion and continue to decrease performance.
+
+#### Solution
+A state of "flow" drive the best performance (immersed in task).
+
+#### Inspiration
+Is current high-tech company's bonus system working?
 
 ## Links
 [Book Notes of Predictably Irrational](https://blog.csdn.net/coslay/article/details/47859169)
