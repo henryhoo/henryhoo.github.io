@@ -1,5 +1,5 @@
 ---
-title: Work as entry-level engineer at start-up
+title: CO-OP at insightFinder
 date: 2018-05-31 21:33:59
 tags:
 - insightFinder

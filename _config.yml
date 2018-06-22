@@ -111,6 +111,7 @@ theme_config:
     about: /about/ || user
     tags: /tags/ || tags
     categories: /categories/ || th
+    top: /top/ || signal
   reward_comment: Donate
   wechatpay: /images/wechatpay.jpg
   # other: /images/paypalpay.png

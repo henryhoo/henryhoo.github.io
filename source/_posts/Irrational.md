@@ -1,5 +1,4 @@
 ---
-layout: notes
 title: Notes of Predictably Irrational
 date: 2018-06-08 07:24:13
 tags:
@@ -203,6 +202,53 @@ A state of "flow" drive the best performance (immersed in task).
 
 #### Inspiration
 Is current high-tech company's bonus system working?
+
+### Social Stress and Performance
+Higher motivation does not necessarily result in better performance: Anxiety caused by public pressure impedes performance.
+
+#### Example
+NBA player have lower free throw rate in the last 5 minutes.
+
+### Bonus, Labor and Motivation (Summary)
+**Bonus:**
+Small amount of money can move relationship from social to financial domain. Large amount can increase motivation but decrease performance. And we do not operate by simple rules of rewards but multiple combination.
+
+**Motivation:**
+Current world have more potential to find the meaning of our work. So A production line environment may not be as efficient as before. And people are less easy to be supervised.
+
+#### Solution
+1. Think of motivation not only by money: A thoughtful gift can mean much more than money bonus.
+2. Make work has meaning and trust employee to do the right thing. So that people will **connect to the output**.
+
+### Guest speak (Lailn Anik)
+1. At different stage of life, motivation change.
+2. When facing different type task, bonus and pressure work differently.
+
+## Self-control
+
+### Difficulty with self-control
+
+**Present focus bias:** Give more weight to the current state and environment.
+
+#### Example:
+1. Global warming and how to incentive people to help environment.
+2. Toyota Prius: Social rewards of hybrid driving.
+
+#### Solution
+1. **Reward Substitution:** Using an alternate reward that is intermediate and more motivating.
+2. **Ulysses (Self-control) Contracts:** Enforce self-control by removing the tempting.
+3. Distracted yourself from temptations.
+4. Eliminate decision point. (Religious people do not think of smoking on Sabbath)
+
+### Maximize Reward
+1. Lotteries
+2. Randomization
+3. Counterfactuals
+4. Regret
+5. Reward Substitution
+
+### Freedom
+Freedom reduce power of Ulysses Contracts. We must find a balance between the amount of freedom we crave and the control we need to shield us from tempting.
 
 ## Links
 [Book Notes of Predictably Irrational](https://blog.csdn.net/coslay/article/details/47859169)
