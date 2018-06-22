@@ -110,7 +110,7 @@
 <meta property="og:site_name" content="Jiaxi He">
 <meta property="og:description" content="I played with hexo to build my first personal website on 2016. Then it was untouched for a long time until today, I decided to pick things up and try to learn some UI staff with it. This page is mainl">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-06-22T11:33:25.306Z">
+<meta property="og:updated_time" content="2018-06-22T11:40:45.517Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Personal Blog based on Hexo + NexT">
 <meta name="twitter:description" content="I played with hexo to build my first personal website on 2016. Then it was untouched for a long time until today, I decided to pick things up and try to learn some UI staff with it. This page is mainl">
@@ -402,7 +402,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-06-22 07:33:25" itemprop="dateModified" datetime="2018-06-22T07:33:25-04:00">2018-06-22</time>
+                <time title="Modified: 2018-06-22 07:40:45" itemprop="dateModified" datetime="2018-06-22T07:40:45-04:00">2018-06-22</time>
               
             
           </span>
@@ -499,14 +499,14 @@
 <h3 id="Version-control"><a href="#Version-control" class="headerlink" title="Version control"></a>Version control</h3><p><a href="http://jr0cket.co.uk/hexo/using-git-submodules-for-custom-hexo-theme.html" target="_blank" rel="noopener">Using Git Submodules to Manage Your Custom Hexo Theme</a><br><a href="https://www.dingxuewen.com/categories/Site/" target="_blank" rel="noopener">hexo教程</a></p>
 <h2 id="Cautions"><a href="#Cautions" class="headerlink" title="Cautions"></a>Cautions</h2><h3 id="Config-override"><a href="#Config-override" class="headerlink" title="Config override"></a>Config override</h3><p>We should be careful with <code>config override</code>. If you want to override one item from a section, you should include other items of that section. For example, once I forget to declare other sections except “display” for sidebar config:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sidebar:</span><br><span class="line">  display: always</span><br></pre></td></tr></table></figure></p>
 <p>This cause the theme config is missing other sections including “offset” which is critical to sidebar affix. So I have a <a href="https://github.com/theme-next/hexo-theme-next/issues/328" target="_blank" rel="noopener">wrongly placed sidebar</a>. I should change to following config if I want to use sidebar:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">sidebar:</span><br><span class="line">  position: left</span><br><span class="line">  display: always</span><br><span class="line">  offset: 12</span><br><span class="line">  b2t: false</span><br><span class="line">  scrollpercent: false</span><br><span class="line">  onmobile: false</span><br></pre></td></tr></table></figure></p>
-<h2 id="To-do"><a href="#To-do" class="headerlink" title="To do"></a>To do</h2><ol>
-<li>add timeline on about page</li>
-<li>Add Chinese post page</li>
-<li>Improve config override, it cause pain in the ass!</li>
-<li>Add SEO</li>
-<li>Add hot posts page</li>
-<li>Add photo of post and correct photo links</li>
-</ol>
+<h2 id="To-do"><a href="#To-do" class="headerlink" title="To do"></a>To do</h2><ul>
+<li style="list-style: none"><input type="checkbox"> add timeline on about page</li>
+<li style="list-style: none"><input type="checkbox"> Add Chinese post page</li>
+<li style="list-style: none"><input type="checkbox"> Improve config override, it cause pain in the ass!</li>
+<li style="list-style: none"><input type="checkbox"> Add SEO</li>
+<li style="list-style: none"><input type="checkbox" checked> Add TopX page</li>
+<li style="list-style: none"><input type="checkbox"> Add photo of post and correct photo links</li>
+</ul>
 
       
     </div>
