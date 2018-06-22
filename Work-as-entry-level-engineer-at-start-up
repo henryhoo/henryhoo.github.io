@@ -106,7 +106,7 @@
 <meta name="keywords" content="insightFinder,internship">
 <meta property="og:type" content="article">
 <meta property="og:title" content="CO-OP at insightFinder">
-<meta property="og:url" content="http://henryhoo.github.io/2018/05/31/Work-as-entry-level-engineer-at-start-up/index.html">
+<meta property="og:url" content="http://henryhoo.github.io/Work-as-entry-level-engineer-at-start-up">
 <meta property="og:site_name" content="Jiaxi He">
 <meta property="og:description" content="After my summer internship at Facebook, I started to work at insightFinder during my second master’s year. As a star-up company, insightFinder gave me a lot of different experience than working at a l">
 <meta property="og:locale" content="en">
@@ -120,7 +120,7 @@
 
 
 
-  <link rel="canonical" href="http://henryhoo.github.io/2018/05/31/Work-as-entry-level-engineer-at-start-up/"/>
+  <link rel="canonical" href="http://henryhoo.github.io/Work-as-entry-level-engineer-at-start-up"/>
 
 
 
@@ -343,7 +343,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://henryhoo.github.io/2018/05/31/Work-as-entry-level-engineer-at-start-up/">
+    <link itemprop="mainEntityOfPage" href="http://henryhoo.github.io/Work-as-entry-level-engineer-at-start-up">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jiaxi He">
@@ -434,8 +434,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2018/05/31/Work-as-entry-level-engineer-at-start-up/#comments" itemprop="discussionUrl">
-                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count gitment-comments-count" data-xid="/2018/05/31/Work-as-entry-level-engineer-at-start-up/" itemprop="commentsCount"></span>
+                <a href="/Work-as-entry-level-engineer-at-start-up#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count gitment-comments-count" data-xid="/Work-as-entry-level-engineer-at-start-up" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -443,7 +443,7 @@
 
           
           
-             <span id="/2018/05/31/Work-as-entry-level-engineer-at-start-up/" class="leancloud_visitors" data-flag-title="CO-OP at insightFinder">
+             <span id="/Work-as-entry-level-engineer-at-start-up" class="leancloud_visitors" data-flag-title="CO-OP at insightFinder">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -572,7 +572,7 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/04/23/my-site-development-log-hexo-nexT-GithubPage/" rel="next" title="Personal Blog based on Hexo + NexT">
+              <a href="/my-site-development-log-hexo-nexT-GithubPage" rel="next" title="Personal Blog based on Hexo + NexT">
                 <i class="fa fa-chevron-left"></i> Personal Blog based on Hexo + NexT
               </a>
             
@@ -582,7 +582,7 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/06/08/Irrational/" rel="prev" title="Notes of Predictably Irrational">
+              <a href="/Irrational" rel="prev" title="Notes of Predictably Irrational">
                 Notes of Predictably Irrational <i class="fa fa-chevron-right"></i>
               </a>
             

@@ -102,25 +102,25 @@
 
 
 
-  <meta name="description" content="The key for dp is to find the variables to represent the states and deduce the transition function. (aka find state -&amp;gt; find relation -&amp;gt; find constraints)">
-<meta name="keywords" content="Leetcode,Algorithms,dynamic programming">
+  <meta name="description" content="I played with hexo to build my first personal website on 2016. Then it was untouched for a long time until today, I decided to pick things up and try to learn some UI staff with it. This page is mainl">
+<meta name="keywords" content="hexo,nextT">
 <meta property="og:type" content="article">
-<meta property="og:title" content="How to do dynamic programming">
-<meta property="og:url" content="http://henryhoo.github.io/2016/11/02/dp/index.html">
+<meta property="og:title" content="Personal Blog based on Hexo + NexT">
+<meta property="og:url" content="http://henryhoo.github.io/my-site-development-log-hexo-nexT-GithubPage">
 <meta property="og:site_name" content="Jiaxi He">
-<meta property="og:description" content="The key for dp is to find the variables to represent the states and deduce the transition function. (aka find state -&amp;gt; find relation -&amp;gt; find constraints)">
+<meta property="og:description" content="I played with hexo to build my first personal website on 2016. Then it was untouched for a long time until today, I decided to pick things up and try to learn some UI staff with it. This page is mainl">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-04-23T15:34:18.978Z">
+<meta property="og:updated_time" content="2018-06-22T11:40:45.517Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="How to do dynamic programming">
-<meta name="twitter:description" content="The key for dp is to find the variables to represent the states and deduce the transition function. (aka find state -&amp;gt; find relation -&amp;gt; find constraints)">
+<meta name="twitter:title" content="Personal Blog based on Hexo + NexT">
+<meta name="twitter:description" content="I played with hexo to build my first personal website on 2016. Then it was untouched for a long time until today, I decided to pick things up and try to learn some UI staff with it. This page is mainl">
 
 
 
 
 
 
-  <link rel="canonical" href="http://henryhoo.github.io/2016/11/02/dp/"/>
+  <link rel="canonical" href="http://henryhoo.github.io/my-site-development-log-hexo-nexT-GithubPage"/>
 
 
 
@@ -130,7 +130,7 @@
   };
 </script>
 
-  <title>How to do dynamic programming | Jiaxi He</title>
+  <title>Personal Blog based on Hexo + NexT | Jiaxi He</title>
   
 
 
@@ -343,7 +343,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://henryhoo.github.io/2016/11/02/dp/">
+    <link itemprop="mainEntityOfPage" href="http://henryhoo.github.io/my-site-development-log-hexo-nexT-GithubPage">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jiaxi He">
@@ -360,7 +360,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">How to do dynamic programming
+          <h1 class="post-title" itemprop="name headline">Personal Blog based on Hexo + NexT
               
             
           </h1>
@@ -385,7 +385,7 @@
                 
               
 
-              <time title="Created: 2016-11-02 20:28:38" itemprop="dateCreated datePublished" datetime="2016-11-02T20:28:38-04:00">2016-11-02</time>
+              <time title="Created: 2018-04-23 11:05:07" itemprop="dateCreated datePublished" datetime="2018-04-23T11:05:07-04:00">2018-04-23</time>
             
 
             
@@ -402,7 +402,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-04-23 11:34:18" itemprop="dateModified" datetime="2018-04-23T11:34:18-04:00">2018-04-23</time>
+                <time title="Modified: 2018-06-22 07:40:45" itemprop="dateModified" datetime="2018-06-22T07:40:45-04:00">2018-06-22</time>
               
             
           </span>
@@ -419,7 +419,7 @@
                 <span class="post-meta-item-text">In</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Programming/" itemprop="url" rel="index"><span itemprop="name">Programming</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/UI/" itemprop="url" rel="index"><span itemprop="name">UI</span></a></span>
 
                 
                 
@@ -434,8 +434,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2016/11/02/dp/#comments" itemprop="discussionUrl">
-                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count gitment-comments-count" data-xid="/2016/11/02/dp/" itemprop="commentsCount"></span>
+                <a href="/my-site-development-log-hexo-nexT-GithubPage#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count gitment-comments-count" data-xid="/my-site-development-log-hexo-nexT-GithubPage" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -443,7 +443,7 @@
 
           
           
-             <span id="/2016/11/02/dp/" class="leancloud_visitors" data-flag-title="How to do dynamic programming">
+             <span id="/my-site-development-log-hexo-nexT-GithubPage" class="leancloud_visitors" data-flag-title="Personal Blog based on Hexo + NexT">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -474,31 +474,39 @@
       
 
       
-        <p>The key for dp is to find the variables to represent the states and deduce the transition function. (aka find state -&gt; find relation -&gt; find constraints)<br><a id="more"></a></p>
-<p>Take <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/" target="_blank" rel="noopener">Best Time to Buy and Sell Stock with Cooldown</a> as an example:</p>
-<h3 id="Find-state"><a href="#Find-state" class="headerlink" title="Find state"></a>Find state</h3><p>The natural states for this problem is the 3 possible transactions : <strong>buy, sell, rest.</strong></p>
-<p>Because the transaction sequences can end with any of these three states. For each of them we make an array, <strong>buy[n], sell[n] and rest[n].</strong>, which represents the maxProfit for any sequence end with buy/sell/rest.</p>
-<h3 id="Find-relation"><a href="#Find-relation" class="headerlink" title="Find relation"></a>Find relation</h3><p>Then we want to deduce the transition functions for buy sell and rest. By definition we have:</p>
-<ul>
-<li>buy[i]  = max(rest[i-1]-price, buy[i-1])</li>
-<li>sell[i] = max(buy[i-1]+price, sell[i-1])</li>
-<li>rest[i] = max(sell[i-1], buy[i-1], rest[i-1])<br>Where price is the price of day i. All of these are very straightforward. They simply represents :</li>
-<li>We have to <code>rest</code> before we <code>buy</code> and</li>
-<li>we have to <code>buy</code> before we <code>sell</code></li>
-</ul>
-<h3 id="Find-constraints"><a href="#Find-constraints" class="headerlink" title="Find constraints"></a>Find constraints</h3><p>One tricky point is how do you make sure you sell before you buy, since from the equations it seems that [buy, rest, buy] is entirely possible.</p>
-<p>Well, the answer lies within the fact that buy[i] &lt;= rest[i] which means rest[i] = max(sell[i-1], rest[i-1]). That made sure [buy, rest, buy] is never occurred.</p>
-<p>A further observation is that and rest[i] &lt;= sell[i] is also true therefore</p>
-<ul>
-<li><p>rest[i] = sell[i-1]<br>Substitute this in to buy[i] we now have 2 functions instead of 3:</p>
+        <p>I played with hexo to build my first personal website on 2016. Then it was untouched for a long time until today, I decided to pick things up and try to learn some UI staff with it.</p>
+<p>This page is mainly for recording what I learnt and and how I used them on this site including 3rd party plugins, theme modification and SEO.<br><a id="more"></a></p>
+<h2 id="Add-plugins"><a href="#Add-plugins" class="headerlink" title="Add plugins"></a>Add plugins</h2><h3 id="Gitment-comments"><a href="#Gitment-comments" class="headerlink" title="Gitment comments"></a>Gitment comments</h3><p>Gitment is a comment system based on GitHub Issues, which can be used in the frontend without any server-side implementation. Gitment plugin is supported in current NexT(v5.1.4), just need a few steps to set up:</p>
+<h4 id="Create-OAuth-application"><a href="#Create-OAuth-application" class="headerlink" title="Create OAuth application"></a>Create OAuth application</h4><ol>
+<li>Go to settings of your github account</li>
+<li>Go to Developer settings</li>
+<li>Click Register a new application</li>
+<li><p>Fill in:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Application name：Gitment</span><br><span class="line">Homepage URL：&lt;your website link&gt;</span><br><span class="line">Application description：&lt;Anything&gt;</span><br><span class="line">Authorization callback URL：&lt;your website link&gt;</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>buy[i] = max(sell[i-2]-price, buy[i-1])</p>
+<li><p>Copy <code>Client ID</code> and <code>Client Secret</code> for future use</p>
 </li>
-<li>sell[i] = max(buy[i-1]+price, sell[i-1])</li>
+</ol>
+<h4 id="Create-repository-for-gitment"><a href="#Create-repository-for-gitment" class="headerlink" title="Create repository for gitment"></a>Create repository for gitment</h4><p>  Create a new repository named <code>gitment-comments</code></p>
+<h4 id="Change-NexT-config"><a href="#Change-NexT-config" class="headerlink" title="Change NexT config"></a>Change NexT config</h4><p> Search gitment in config.yml<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">gitment:</span><br><span class="line">  enable: true</span><br><span class="line">  mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway</span><br><span class="line">  count: true # Show comments count in post meta area</span><br><span class="line">  lazy: false # Comments lazy loading with a button</span><br><span class="line">  cleanly: false # Hide &apos;Powered by ...&apos; on footer, and more</span><br><span class="line">  language: # Force language, or auto switch by theme</span><br><span class="line">  github_user: # MUST HAVE, Your Github ID</span><br><span class="line">  github_repo: `gitment-comments` # MUST HAVE, The repo you use to store Gitment comments</span><br><span class="line">  client_id: `Client ID` # MUST HAVE, Github client id for the Gitment</span><br><span class="line">  client_secret: `Client Secret` # EITHER this or proxy_gateway, Github access secret token for the Gitment</span><br><span class="line">  proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect</span><br><span class="line">  redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled</span><br></pre></td></tr></table></figure></p>
+<h3 id="Add-various-plugins-based-on-hexo-document"><a href="#Add-various-plugins-based-on-hexo-document" class="headerlink" title="Add various plugins based on hexo document"></a>Add various plugins based on <a href="http://theme-next.iissnan.com/third-party-services.html" target="_blank" rel="noopener">hexo document</a></h3><ol>
+<li>baidu analytics</li>
+<li>addThis share</li>
+<li>leancloud_visitors</li>
+<li>Local Search</li>
+</ol>
+<h2 id="Learning-source"><a href="#Learning-source" class="headerlink" title="Learning source"></a>Learning source</h2><h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p><a href="https://thief.one/2017/03/03/Hexo搭建博客教程/" target="_blank" rel="noopener">Hexo搭建博客教程</a><br><a href="https://lovexinforever.github.io/2017/09/18/Hexo-NexT-博客搭建相册-二/" target="_blank" rel="noopener">Hexo+NexT 博客搭建相册</a><br><a href="https://reuixiy.github.io/technology/computer/computer-aided-art/2017/06/09/hexo-next-optimization.html" target="_blank" rel="noopener">打造个性超赞博客Hexo+NexT+GithubPages的超深度优化</a><br><a href="http://shenzekun.cn/hexo的next主题个性化配置教程.html" target="_blank" rel="noopener">hexo的next主题个性化配置教程</a></p>
+<h3 id="Version-control"><a href="#Version-control" class="headerlink" title="Version control"></a>Version control</h3><p><a href="http://jr0cket.co.uk/hexo/using-git-submodules-for-custom-hexo-theme.html" target="_blank" rel="noopener">Using Git Submodules to Manage Your Custom Hexo Theme</a><br><a href="https://www.dingxuewen.com/categories/Site/" target="_blank" rel="noopener">hexo教程</a></p>
+<h2 id="Cautions"><a href="#Cautions" class="headerlink" title="Cautions"></a>Cautions</h2><h3 id="Config-override"><a href="#Config-override" class="headerlink" title="Config override"></a>Config override</h3><p>We should be careful with <code>config override</code>. If you want to override one item from a section, you should include other items of that section. For example, once I forget to declare other sections except “display” for sidebar config:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sidebar:</span><br><span class="line">  display: always</span><br></pre></td></tr></table></figure></p>
+<p>This cause the theme config is missing other sections including “offset” which is critical to sidebar affix. So I have a <a href="https://github.com/theme-next/hexo-theme-next/issues/328" target="_blank" rel="noopener">wrongly placed sidebar</a>. I should change to following config if I want to use sidebar:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">sidebar:</span><br><span class="line">  position: left</span><br><span class="line">  display: always</span><br><span class="line">  offset: 12</span><br><span class="line">  b2t: false</span><br><span class="line">  scrollpercent: false</span><br><span class="line">  onmobile: false</span><br></pre></td></tr></table></figure></p>
+<h2 id="To-do"><a href="#To-do" class="headerlink" title="To do"></a>To do</h2><ul>
+<li style="list-style: none"><input type="checkbox"> add timeline on about page</li>
+<li style="list-style: none"><input type="checkbox"> Add Chinese post page</li>
+<li style="list-style: none"><input type="checkbox"> Improve config override, it cause pain in the ass!</li>
+<li style="list-style: none"><input type="checkbox"> Add SEO</li>
+<li style="list-style: none"><input type="checkbox" checked> Add TopX page</li>
+<li style="list-style: none"><input type="checkbox"> Add photo of post and correct photo links</li>
 </ul>
-<p>This is better than 3, but, we can do even better</p>
-<p>Since states of day i relies only on i-1 and i-2 we can reduce the O(n) space to O(1). And here we are at our final solution:</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">maxProfit</span><span class="params">(<span class="keyword">int</span>[] prices)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> sell = <span class="number">0</span>, prev_sell = <span class="number">0</span>, buy = Integer.MIN_VALUE, prev_buy;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> price : prices) &#123;</span><br><span class="line">        prev_buy = buy;</span><br><span class="line">        buy = Math.max(prev_sell - price, prev_buy);</span><br><span class="line">        prev_sell = sell;</span><br><span class="line">        sell = Math.max(prev_buy + price, prev_sell);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> sell;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -543,11 +551,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Leetcode/" rel="tag"># Leetcode</a>
+            <a href="/tags/hexo/" rel="tag"># hexo</a>
           
-            <a href="/tags/Algorithms/" rel="tag"># Algorithms</a>
-          
-            <a href="/tags/dynamic-programming/" rel="tag"># dynamic programming</a>
+            <a href="/tags/nextT/" rel="tag"># nextT</a>
           
         </div>
       
@@ -560,14 +566,18 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/dp" rel="next" title="How to do dynamic programming">
+                <i class="fa fa-chevron-left"></i> How to do dynamic programming
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/04/23/my-site-development-log-hexo-nexT-GithubPage/" rel="prev" title="Personal Blog based on Hexo + NexT">
-                Personal Blog based on Hexo + NexT <i class="fa fa-chevron-right"></i>
+              <a href="/Work-as-entry-level-engineer-at-start-up" rel="prev" title="CO-OP at insightFinder">
+                CO-OP at insightFinder <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -794,7 +804,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Find-state"><span class="nav-number">1.</span> <span class="nav-text">Find state</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Find-relation"><span class="nav-number">2.</span> <span class="nav-text">Find relation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Find-constraints"><span class="nav-number">3.</span> <span class="nav-text">Find constraints</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Add-plugins"><span class="nav-number">1.</span> <span class="nav-text">Add plugins</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Gitment-comments"><span class="nav-number">1.1.</span> <span class="nav-text">Gitment comments</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Create-OAuth-application"><span class="nav-number">1.1.1.</span> <span class="nav-text">Create OAuth application</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Create-repository-for-gitment"><span class="nav-number">1.1.2.</span> <span class="nav-text">Create repository for gitment</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Change-NexT-config"><span class="nav-number">1.1.3.</span> <span class="nav-text">Change NexT config</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Add-various-plugins-based-on-hexo-document"><span class="nav-number">1.2.</span> <span class="nav-text">Add various plugins based on hexo document</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Learning-source"><span class="nav-number">2.</span> <span class="nav-text">Learning source</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Hexo"><span class="nav-number">2.1.</span> <span class="nav-text">Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Version-control"><span class="nav-number">2.2.</span> <span class="nav-text">Version control</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Cautions"><span class="nav-number">3.</span> <span class="nav-text">Cautions</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Config-override"><span class="nav-number">3.1.</span> <span class="nav-text">Config override</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#To-do"><span class="nav-number">4.</span> <span class="nav-text">To do</span></a></li></ol></div>
             
 
           </div>
