@@ -104,25 +104,25 @@
 
 
 
-  <meta name="description" content="After my summer internship at Facebook, I started to work at insightFinder during my second master’s year. As a star-up company, insightFinder gave me a lot of different experience than working at a l">
-<meta name="keywords" content="insightFinder,internship">
+  <meta name="description" content="The key for dp is to find the variables to represent the states and deduce the transition function. (aka find state -&amp;gt; find relation -&amp;gt; find constraints)">
+<meta name="keywords" content="Leetcode,Algorithms,dynamic programming">
 <meta property="og:type" content="article">
-<meta property="og:title" content="CO-OP at insightFinder">
-<meta property="og:url" content="http://henryhoo.github.io/Work-as-entry-level-engineer-at-start-up">
+<meta property="og:title" content="How to do dynamic programming">
+<meta property="og:url" content="http://henryhoo.github.io/dp/index.html">
 <meta property="og:site_name" content="Jiaxi He">
-<meta property="og:description" content="After my summer internship at Facebook, I started to work at insightFinder during my second master’s year. As a star-up company, insightFinder gave me a lot of different experience than working at a l">
+<meta property="og:description" content="The key for dp is to find the variables to represent the states and deduce the transition function. (aka find state -&amp;gt; find relation -&amp;gt; find constraints)">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-06-21T02:28:26.917Z">
+<meta property="og:updated_time" content="2018-04-23T15:34:18.978Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="CO-OP at insightFinder">
-<meta name="twitter:description" content="After my summer internship at Facebook, I started to work at insightFinder during my second master’s year. As a star-up company, insightFinder gave me a lot of different experience than working at a l">
+<meta name="twitter:title" content="How to do dynamic programming">
+<meta name="twitter:description" content="The key for dp is to find the variables to represent the states and deduce the transition function. (aka find state -&amp;gt; find relation -&amp;gt; find constraints)">
 
 
 
 
 
 
-  <link rel="canonical" href="http://henryhoo.github.io/Work-as-entry-level-engineer-at-start-up"/>
+  <link rel="canonical" href="http://henryhoo.github.io/dp/"/>
 
 
 
@@ -132,7 +132,7 @@
   };
 </script>
 
-  <title>CO-OP at insightFinder | Jiaxi He</title>
+  <title>How to do dynamic programming | Jiaxi He</title>
   
 
 
@@ -345,7 +345,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://henryhoo.github.io/Work-as-entry-level-engineer-at-start-up">
+    <link itemprop="mainEntityOfPage" href="http://henryhoo.github.io/dp/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jiaxi He">
@@ -362,7 +362,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">CO-OP at insightFinder
+          <h1 class="post-title" itemprop="name headline">How to do dynamic programming
               
             
           </h1>
@@ -387,7 +387,7 @@
                 
               
 
-              <time title="Created: 2018-05-31 21:33:59" itemprop="dateCreated datePublished" datetime="2018-05-31T21:33:59-04:00">2018-05-31</time>
+              <time title="Created: 2016-11-02 20:28:38" itemprop="dateCreated datePublished" datetime="2016-11-02T20:28:38-04:00">2016-11-02</time>
             
 
             
@@ -404,7 +404,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-06-20 22:28:26" itemprop="dateModified" datetime="2018-06-20T22:28:26-04:00">2018-06-20</time>
+                <time title="Modified: 2018-04-23 11:34:18" itemprop="dateModified" datetime="2018-04-23T11:34:18-04:00">2018-04-23</time>
               
             
           </span>
@@ -421,7 +421,7 @@
                 <span class="post-meta-item-text">In</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Work-experience/" itemprop="url" rel="index"><span itemprop="name">Work experience</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Programming/" itemprop="url" rel="index"><span itemprop="name">Programming</span></a></span>
 
                 
                 
@@ -436,8 +436,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/Work-as-entry-level-engineer-at-start-up#comments" itemprop="discussionUrl">
-                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count gitment-comments-count" data-xid="/Work-as-entry-level-engineer-at-start-up" itemprop="commentsCount"></span>
+                <a href="/dp/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">Comments: </span> <span class="post-comments-count gitment-comments-count" data-xid="/dp/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -445,7 +445,7 @@
 
           
           
-             <span id="/Work-as-entry-level-engineer-at-start-up" class="leancloud_visitors" data-flag-title="CO-OP at insightFinder">
+             <span id="/dp/" class="leancloud_visitors" data-flag-title="How to do dynamic programming">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -476,45 +476,31 @@
       
 
       
-        <p>After my summer internship at Facebook, I started to work at <a href="https://insightfinder.com" target="_blank" rel="noopener">insightFinder</a> during my second master’s year. As a star-up company, insightFinder gave me a lot of different experience than working at a large tech company such as Facebook, and taught different things.<br><a id="more"></a></p>
-<h1 id="The-Story"><a href="#The-Story" class="headerlink" title="The Story"></a>The Story</h1><h2 id="Onboarding"><a href="#Onboarding" class="headerlink" title="Onboarding"></a>Onboarding</h2><p>Starting to work is quite simple here. One of my friend as well as classmate took me to our office on my first date to work. He worked here during summer and will continue for the following semester, and he will be the one to guide me.</p>
-<p>We had lunch together with two other co-workers and they introduced our overall infrastructure on the first day. Then I spent most of the day setting up my environment and making things running.</p>
-<p>Our stack includes Java backend, javascript UI, RabbitMQ, in-house C++ machine learning library and several agents on Splunk, AWS and Logstash. I was mainly focus on the backend development at that time and got a easy-fix for warm up.</p>
-<h2 id="Struggle-as-a-noob"><a href="#Struggle-as-a-noob" class="headerlink" title="Struggle as a noob"></a>Struggle as a noob</h2><p>At the beginning, I spent most of time learning and discussing. As I got familiar with the development cycle, I was soon assigned to improve an existing feature.</p>
-<p>This is the time I really struggle with. I know the overall structure, but I hardly understand the code base, which is to me poorly maintained and documented. I have to ask people around about how things work and where should I start with, and no one knows everything! Sometimes I have to call previous employee to get the answer and even our CEO had taught me for several times.</p>
-<p>After struggling for some days I got to know how backend is working here, and began to make progress on each tasks. Well, months later I realized the quality of work at this time is not good, code are buggy and not well formatted, and I have to rewrite some of them. But still, it feels good when making progress.</p>
-<h2 id="Make-progress-and-celebrate"><a href="#Make-progress-and-celebrate" class="headerlink" title="Make progress and celebrate"></a>Make progress and celebrate</h2><p>Though struggled, I was learning and finishing projects one after another. Gradually I realized there are parts of the system I was responsible for, and as a member in a small but busy team, that means you may working on things beyond coding. I started joining meetings with customers, writing user guides and things like that. It is interesting to know things like these and I feel close to the company.</p>
-<p>In the mean time the team is also making progress. We got new customers and demos came one after another. And extra hours always needed before a demo day. Life is stressful but rewarding. Good news is a new investment allows us to expand the team. We some both new-grad and senior engineers coming to reduce the burden. And a bigger office is awaiting.</p>
-<h2 id="Dive-deep-with-experience"><a href="#Dive-deep-with-experience" class="headerlink" title="Dive deep with experience"></a>Dive deep with experience</h2><p>After the first semester, I kept working on winter break. Since then I worked not only on individual feature projects but also on infrastructure design, performance improvement and reliability improve. I got the chance to resolve several data processing bottleneck which is much more challenging and interesting.</p>
-<p>Also, there are new coming engineers. And we started to enhance our code review as well as CI flow. so I started to answer questions instead of asking. I need to explain some of my work as well and assign some tasks to interns. Trying to explain and help drove me to re-think and I got deeper understanding, and make me feel I am not a noob anymore.</p>
-<h2 id="Leaving"><a href="#Leaving" class="headerlink" title="Leaving"></a>Leaving</h2><p>Graduation means farewell. Last few weeks is still busy but I put some time to turn some work into a framework and hand over my things to another full time. And kept answering questions and saying goodbye by phone after leaving office. It’s my fortune to be part on this company and really hope these guys have a bright future.</p>
-<h1 id="Some-Thoughts"><a href="#Some-Thoughts" class="headerlink" title="Some Thoughts"></a>Some Thoughts</h1><h2 id="Why-an-existing-system-should-sucks"><a href="#Why-an-existing-system-should-sucks" class="headerlink" title="Why an existing system should sucks"></a>Why an existing system should sucks</h2><p>Every company have old, existing system and most of time we will work based on it. I was like to complain of it, as it looks big, merely maintainable, and hard to use. However, I gradually realized maybe it was good, and expandable enough when it was first developed. It only became a monster when our needs changed, or people left or simply forgot. And when we trying to replace it with a new system, the same complains started after some times because of the same reason.</p>
-<p>How to resolve this? I am not sure, maybe just kept a good development practice and a peaceful attitude when you encounter a problem.</p>
-<h2 id="Before-answer-a-tech-question"><a href="#Before-answer-a-tech-question" class="headerlink" title="Before answer a tech question"></a>Before answer a tech question</h2><p>I got a lot of questions to answer when new engineer came into team. Some days I feel like my main job is to talk and answer various questions, from infra design, code base to why a little bug happened, how to use a tool. Then I found there is something wrong with it, some questions are too simple that I don’t even need to think to give the answer, some however, I have no clue to know the answer. And sometimes, even if I have a answer, the questioner came back with another question completely different to the first one.</p>
-<p>So I start to think of how to make this communication more efficient so that I can still have time on my own work. I began to ask questioner some questions before they start their questioning:</p>
-<ol>
-<li><p>What is the task they asked you to solve?</p>
+        <p>The key for dp is to find the variables to represent the states and deduce the transition function. (aka find state -&gt; find relation -&gt; find constraints)<br><a id="more"></a></p>
+<p>Take <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/" target="_blank" rel="noopener">Best Time to Buy and Sell Stock with Cooldown</a> as an example:</p>
+<h3 id="Find-state"><a href="#Find-state" class="headerlink" title="Find state"></a>Find state</h3><p>The natural states for this problem is the 3 possible transactions : <strong>buy, sell, rest.</strong></p>
+<p>Because the transaction sequences can end with any of these three states. For each of them we make an array, <strong>buy[n], sell[n] and rest[n].</strong>, which represents the maxProfit for any sequence end with buy/sell/rest.</p>
+<h3 id="Find-relation"><a href="#Find-relation" class="headerlink" title="Find relation"></a>Find relation</h3><p>Then we want to deduce the transition functions for buy sell and rest. By definition we have:</p>
+<ul>
+<li>buy[i]  = max(rest[i-1]-price, buy[i-1])</li>
+<li>sell[i] = max(buy[i-1]+price, sell[i-1])</li>
+<li>rest[i] = max(sell[i-1], buy[i-1], rest[i-1])<br>Where price is the price of day i. All of these are very straightforward. They simply represents :</li>
+<li>We have to <code>rest</code> before we <code>buy</code> and</li>
+<li>we have to <code>buy</code> before we <code>sell</code></li>
+</ul>
+<h3 id="Find-constraints"><a href="#Find-constraints" class="headerlink" title="Find constraints"></a>Find constraints</h3><p>One tricky point is how do you make sure you sell before you buy, since from the equations it seems that [buy, rest, buy] is entirely possible.</p>
+<p>Well, the answer lies within the fact that buy[i] &lt;= rest[i] which means rest[i] = max(sell[i-1], rest[i-1]). That made sure [buy, rest, buy] is never occurred.</p>
+<p>A further observation is that and rest[i] &lt;= sell[i] is also true therefore</p>
+<ul>
+<li><p>rest[i] = sell[i-1]<br>Substitute this in to buy[i] we now have 2 functions instead of 3:</p>
 </li>
-<li><p>What are you working on to solve it?</p>
+<li><p>buy[i] = max(sell[i-2]-price, buy[i-1])</p>
 </li>
-<li><p>Do you have better plan or another idea?</p>
-</li>
-</ol>
-<p>It is surprising efficient, most of the time they found the solution themselves, or they realized they are heading for a wrong direction. This save me the energy of doing context switch for answer a specific questions and can get back to my work easier.  </p>
-<h2 id="Prepare-for-meetings-and-reports"><a href="#Prepare-for-meetings-and-reports" class="headerlink" title="Prepare for meetings and reports"></a>Prepare for meetings and reports</h2><p>Meetings here are more frequent, and more roles are attending. CEO, tech lead, designer, sales, and even customer. I am not a good talker and I feel sad when my explanation is misunderstood or ignored. So make sure I kept these in mind when reporting:</p>
-<ol>
-<li><p>Make sure everyone have the same context, introduce previous context if someone is missing last time, update terms and make sure everyone is using the same.</p>
-</li>
-<li><p>Stop taking about things others can’t understand. Not everyone knows “CPU bottleneck”, “network throughput”. Use “the user need to wait for around 10 minutes because our sever have a performance problem” instead of “our message queue is blocked because of CPU bottleneck”</p>
-</li>
-<li><p>Kept the key point first. What problem you found, and what solution you are trying. You will lose audience when you start with introducing the root cause first.</p>
-</li>
-<li><p>Stop meaningless talk. “It can not be done”, “It is wrong”, “It can not happened”. No one wants to hear them, talk about solution, reason instead.</p>
-</li>
-</ol>
-<h2 id="Start-up-vs-Big-company"><a href="#Start-up-vs-Big-company" class="headerlink" title="Start-up vs Big company"></a>Start-up vs Big company</h2><p>There is much more freedom in a start-up company like this. We move faster than Facebook and it’s very exciting to see my own work delivered for a big impact.</p>
-<p>However, sometimes it is too busy and I feel a little tried. And sometimes I have work on several tasks in parallel and context switch is causing me pain and make me stressful. And there is less infrastructure to help us with the quality of work.</p>
-<h1 id="The-Pics"><a href="#The-Pics" class="headerlink" title="The Pics"></a>The Pics</h1><p>Coming soon</p>
+<li>sell[i] = max(buy[i-1]+price, sell[i-1])</li>
+</ul>
+<p>This is better than 3, but, we can do even better</p>
+<p>Since states of day i relies only on i-1 and i-2 we can reduce the O(n) space to O(1). And here we are at our final solution:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">maxProfit</span><span class="params">(<span class="keyword">int</span>[] prices)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> sell = <span class="number">0</span>, prev_sell = <span class="number">0</span>, buy = Integer.MIN_VALUE, prev_buy;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> price : prices) &#123;</span><br><span class="line">        prev_buy = buy;</span><br><span class="line">        buy = Math.max(prev_sell - price, prev_buy);</span><br><span class="line">        prev_sell = sell;</span><br><span class="line">        sell = Math.max(prev_buy + price, prev_sell);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> sell;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -559,9 +545,11 @@
       
         <div class="post-tags">
           
-            <a href="/tags/insightFinder/" rel="tag"># insightFinder</a>
+            <a href="/tags/Leetcode/" rel="tag"># Leetcode</a>
           
-            <a href="/tags/internship/" rel="tag"># internship</a>
+            <a href="/tags/Algorithms/" rel="tag"># Algorithms</a>
+          
+            <a href="/tags/dynamic-programming/" rel="tag"># dynamic programming</a>
           
         </div>
       
@@ -574,18 +562,14 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/my-site-development-log-hexo-nexT-GithubPage" rel="next" title="Personal Blog based on Hexo + NexT">
-                <i class="fa fa-chevron-left"></i> Personal Blog based on Hexo + NexT
-              </a>
-            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/Irrational" rel="prev" title="Notes of Predictably Irrational">
-                Notes of Predictably Irrational <i class="fa fa-chevron-right"></i>
+              <a href="/my-site-development-log-hexo-nexT-GithubPage/" rel="prev" title="Personal Blog based on Hexo + NexT">
+                Personal Blog based on Hexo + NexT <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -812,7 +796,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#The-Story"><span class="nav-number">1.</span> <span class="nav-text">The Story</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Onboarding"><span class="nav-number">1.1.</span> <span class="nav-text">Onboarding</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Struggle-as-a-noob"><span class="nav-number">1.2.</span> <span class="nav-text">Struggle as a noob</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Make-progress-and-celebrate"><span class="nav-number">1.3.</span> <span class="nav-text">Make progress and celebrate</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Dive-deep-with-experience"><span class="nav-number">1.4.</span> <span class="nav-text">Dive deep with experience</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Leaving"><span class="nav-number">1.5.</span> <span class="nav-text">Leaving</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Some-Thoughts"><span class="nav-number">2.</span> <span class="nav-text">Some Thoughts</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Why-an-existing-system-should-sucks"><span class="nav-number">2.1.</span> <span class="nav-text">Why an existing system should sucks</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Before-answer-a-tech-question"><span class="nav-number">2.2.</span> <span class="nav-text">Before answer a tech question</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Prepare-for-meetings-and-reports"><span class="nav-number">2.3.</span> <span class="nav-text">Prepare for meetings and reports</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Start-up-vs-Big-company"><span class="nav-number">2.4.</span> <span class="nav-text">Start-up vs Big company</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#The-Pics"><span class="nav-number">3.</span> <span class="nav-text">The Pics</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Find-state"><span class="nav-number">1.</span> <span class="nav-text">Find state</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Find-relation"><span class="nav-number">2.</span> <span class="nav-text">Find relation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Find-constraints"><span class="nav-number">3.</span> <span class="nav-text">Find constraints</span></a></li></ol></div>
             
 
           </div>
