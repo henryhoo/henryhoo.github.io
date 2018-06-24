@@ -250,5 +250,64 @@ Current world have more potential to find the meaning of our work. So A producti
 ### Freedom
 Freedom reduce power of Ulysses Contracts. We must find a balance between the amount of freedom we crave and the control we need to shield us from tempting.
 
+## Emotion
+1. Basic part of human.
+2. Can overcome cognition.
+3. Can work both for or against us.
+
+### Two systems
+**The limbic systems:** Similar across all animals.
+**The cognitive system:** Mark us as human.
+
+#### Example
+1. Emotion are transient and more short-live than we expect.
+2. Emotion can over take cognition. Example: People being sexual aroused
+
+#### solution
+Understand how emotion can change us.
+
+### Intro-empathy problem
+We making decision under a specific emotional state, we have **Intro-empathy gap**: Thinking we will have the same emotional state in the future
+
+#### Example
+1. Movie choice diffs at different emotion.
+2. The thirsty you are, the more likely you will donate to charity.
+
+### The Identifiable Victim Effect
+A single victim inspire action while generation information about massive victims does not (statistic information inspire cognitive thinking)
+
+#### Cause
+The discrepancy between cognitive and emotional thinking.
+
+#### Example
+1. The mismatch between actual need and money donated to each event/disease.
+2. The trolley problem.
+3. Donation for people in another side of the world.
+
+#### Solution
+Portray right information (Break big problem into small pieces) to people if you want to convey them.
+
+### Emotional Decision Making
+For products that are consumed emotionally, lack of cognitive input can lead to increased enjoyment.
+
+#### Example
+Buying jams without knowing any cognitive information (price, brand etc).
+
+#### Solution
+The decision environment should match up with the consumption environment.
+
+##### Example
+Buying ugly speaker with better sound VS good-looking speaker with worse sound.
+
+### Risk Assessment
+We value risk higher when:
+1. Recently being reminded (salient in memory).
+2. We have no control.
+3. We have emotional response.
+
+#### Example
+1. Kill by shark (reminded by lots of movies) VS by airplane wreckage drop from sky
+2. Terrorist (lack of control) VS Car accident
+
 ## Links
 [Book Notes of Predictably Irrational](https://blog.csdn.net/coslay/article/details/47859169)

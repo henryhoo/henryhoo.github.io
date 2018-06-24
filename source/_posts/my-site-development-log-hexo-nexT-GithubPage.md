@@ -49,8 +49,63 @@ gitment:
 ### Add various plugins based on [hexo document](http://theme-next.iissnan.com/third-party-services.html)
   1. baidu analytics
   2. addThis share
-  3. leancloud_visitors
+  3. leancloud_visitors <span id = "leancloud_visitors"></span>
   4. Local Search
+
+## Customize page
+
+### TopX: Hottest post page (**Need Leancloud support**)
+Reference：[5.8 添加 TopX 页面](https://reuixiy.github.io/technology/computer/computer-aided-art/2017/06/09/hexo-next-optimization.html)
+Basically it create a new page and rearranged post based on views from Leancloud's database we created when we add [leancloud_visitors](#leancloud_visitors) plugin.
+1. Create new page
+```
+hexo new page "top"
+```
+
+2. Add menu in theme configuration
+```
+menu:
+  top: /top/ || signal
+```
+
+3. Modify the new index.md for "top" page: 
+```
+---
+title: TopX
+comments: false
+keywords: top,文章阅读量排行榜
+---
+<div id="top"></div>
+<script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+<script>AV.initialize("app_id", "app_key");</script>
+<script type="text/javascript">
+  var time=0
+  var title=""
+  var url=""
+  var query = new AV.Query('Counter');
+  query.notEqualTo('id',0);
+  query.descending('time');
+  query.limit(1000);
+  query.find().then(function (todo) {
+    for (var i=0;i<1000;i++){
+      var result=todo[i].attributes;
+      time=result.time;
+      title=result.title;
+      url=result.url;
+      var content="<a href='"+"https://reuixiy.github.io"+url+"'>"+title+"</a>"+"<br />"+"<font color='#555'>"+"阅读次数："+time+"</font>"+"<br /><br />";
+      document.getElementById("top").innerHTML+=content
+    }
+  }, function (error) {
+    console.log("error");
+  });
+</script>
+```
+
+4. Replace variables:
+
+    * Change `app_id` and `app_key` in `index.md` for your own leancloud id.
+
+    * Also you can change TopX's X by changing this line: `query.limit(1000);`
 
 ## Learning source
 ### Hexo
@@ -58,9 +113,15 @@ gitment:
 [Hexo+NexT 博客搭建相册](https://lovexinforever.github.io/2017/09/18/Hexo-NexT-博客搭建相册-二/)
 [打造个性超赞博客Hexo+NexT+GithubPages的超深度优化](https://reuixiy.github.io/technology/computer/computer-aided-art/2017/06/09/hexo-next-optimization.html)
 [hexo的next主题个性化配置教程](http://shenzekun.cn/hexo的next主题个性化配置教程.html)
+[hexo教程](https://www.dingxuewen.com/categories/Site/)
+
 ### Version control
 [Using Git Submodules to Manage Your Custom Hexo Theme](http://jr0cket.co.uk/hexo/using-git-submodules-for-custom-hexo-theme.html)
-[hexo教程](https://www.dingxuewen.com/categories/Site/)
+
+### SEO
+[hexo高阶教程：想让你的博客被更多的人在搜索引擎中搜到吗](https://blog.csdn.net/sunshine940326/article/details/70936988/)
+[动动手指，不限于NexT主题的Hexo优化（SEO篇](http://www.arao.me/2015/hexo-next-theme-optimize-seo/)
+[Hexo Seo优化让你的博客在google搜索排名第一](https://www.jianshu.com/p/86557c34b671)
 
 ## Cautions
 ### Config override
@@ -84,6 +145,6 @@ This cause the theme config is missing other sections including "offset" which i
 - [ ] add timeline on about page
 - [ ] Add Chinese post page
 - [ ] Improve config override, it cause pain in the ass!
-- [ ] Add SEO
+- [x] Add SEO (Baidu + Google)
 - [x] Add TopX page
 - [ ] Add photo of post and correct photo links
