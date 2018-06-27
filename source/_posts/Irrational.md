@@ -4,7 +4,9 @@ date: 2018-06-08 07:24:13
 tags:
 - Predictably Irrational
 - Notes
-categories: Notes
+categories:
+- Notes
+- Psychology
 ---
 
 My notes of duke online course [dan ariely - predictably irrational](https://www.bilibili.com/video/av1014404/?p=18)
@@ -26,7 +28,7 @@ We place higher value on specific items than the money value of those items. Thi
 $1000 Pioneer stereo VS $700 Sony stereo VS $1000 Sony stereo with $300 CD coupon
 ![](https://i.imgur.com/m6xwyuX.png)
 
-#### Solution:
+#### Solution of search:
 We should think money in terms of opportunity cost: what you give up for choosing one thing over another
 
 ### Relativity
@@ -308,6 +310,10 @@ We value risk higher when:
 #### Example
 1. Kill by shark (reminded by lots of movies) VS by airplane wreckage drop from sky
 2. Terrorist (lack of control) VS Car accident
+
+## Mindnode
+[Converting Markdown to a mind map](http://brettterpstra.com/2013/08/18/markdown-to-mind-map/)
+![](https://ws3.sinaimg.cn/large/006tKfTcgy1fsm6ojjpq5j31kw2zy1kx.jpg)
 
 ## Links
 [Book Notes of Predictably Irrational](https://blog.csdn.net/coslay/article/details/47859169)
