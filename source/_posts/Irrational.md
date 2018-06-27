@@ -28,7 +28,7 @@ We place higher value on specific items than the money value of those items. Thi
 $1000 Pioneer stereo VS $700 Sony stereo VS $1000 Sony stereo with $300 CD coupon
 ![](https://i.imgur.com/m6xwyuX.png)
 
-#### Solution of search:
+#### Solution:
 We should think money in terms of opportunity cost: what you give up for choosing one thing over another
 
 ### Relativity
