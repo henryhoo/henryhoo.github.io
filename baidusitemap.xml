@@ -4,8 +4,33 @@
 
     
   <url>
+    <loc>http://henryhoo.github.io/cs188/</loc>
+    <lastmod>2018-06-27T13:20:31.054Z</lastmod>
+    <data>
+        <display>
+        <title>Notes of cs188 Artificial Intelligence</title>
+        <pubTime>2018-06-27T12:47:04.000Z</pubTime>
+        
+        <tag>Predictably Irrational</tag>
+         
+        <tag>Notes</tag>
+         
+         
+           
+             
+              <breadCrumb title="Notes" url="http://henryhoo.github.io/categories/Notes/"/>
+          
+             
+              <breadCrumb title="Computer Science" url="http://henryhoo.github.io/categories/Notes/Computer-Science/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://henryhoo.github.io/Irrational/</loc>
-    <lastmod>2018-06-24T05:05:44.102Z</lastmod>
+    <lastmod>2018-06-27T13:17:12.042Z</lastmod>
     <data>
         <display>
         <title>Notes of Predictably Irrational</title>
@@ -19,6 +44,9 @@
            
              
               <breadCrumb title="Notes" url="http://henryhoo.github.io/categories/Notes/"/>
+          
+             
+              <breadCrumb title="Psychology" url="http://henryhoo.github.io/categories/Notes/Psychology/"/>
           
         </display>
     </data>
