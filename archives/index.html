@@ -101,7 +101,18 @@
 
   
 
-
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 
 
   <meta name="description" content="Jiaxi He&apos;s personal page">
@@ -203,7 +214,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">Living and learning in Raleigh</p>
+        <p class="site-subtitle"></p>
       
   </div>
 
@@ -363,7 +374,7 @@
         
           
         
-        Um..! 6 posts in total. Keep on posting.
+        Um..! 7 posts in total. Keep on posting.
       </span>
       
 
@@ -388,6 +399,43 @@
 
       <h2 class="post-title">
         
+            <a class="post-title-link" href="/ZeroToOne/" itemprop="url">
+              
+                <span itemprop="name">读书笔记：从0到1:开启商业与未来的秘密</span>
+              
+            </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2018-07-17T10:40:24-07:00"
+              content="2018-07-17" >
+          07-17
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+
+      
+
+        
+        
+        
+
+        
+        
+
+        
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
             <a class="post-title-link" href="/zulu/" itemprop="url">
               
                 <span itemprop="name">读书笔记：祖鲁法则:如何选择成长股</span>
@@ -398,7 +446,7 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2018-07-13T18:30:04-04:00"
+              datetime="2018-07-13T18:30:04-07:00"
               content="2018-07-13" >
           07-13
         </time>
@@ -435,7 +483,7 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2018-06-27T08:47:04-04:00"
+              datetime="2018-06-27T08:47:04-07:00"
               content="2018-06-27" >
           06-27
         </time>
@@ -472,7 +520,7 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2018-06-08T07:24:13-04:00"
+              datetime="2018-06-08T07:24:13-07:00"
               content="2018-06-08" >
           06-08
         </time>
@@ -509,7 +557,7 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2018-05-31T21:33:59-04:00"
+              datetime="2018-05-31T21:33:59-07:00"
               content="2018-05-31" >
           05-31
         </time>
@@ -546,7 +594,7 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2018-04-23T11:05:07-04:00"
+              datetime="2018-04-23T11:05:07-07:00"
               content="2018-04-23" >
           04-23
         </time>
@@ -588,7 +636,7 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2016-11-02T20:28:38-04:00"
+              datetime="2016-11-02T20:28:38-07:00"
               content="2016-11-02" >
           11-02
         </time>
@@ -653,7 +701,7 @@
                 
                   <a href="/archives">
                 
-                    <span class="site-state-item-count">6</span>
+                    <span class="site-state-item-count">7</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -680,7 +728,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">7</span>
+                      
+                    
+                    <span class="site-state-item-count">8</span>
                     <span class="site-state-item-name">categories</span>
                   </a>
                 </div>
@@ -715,7 +765,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">11</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">13</span>
                     <span class="site-state-item-name">tags</span>
                   </a>
                 </div>
@@ -802,7 +856,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; 2016 &mdash; <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; 2016 &mdash; <span itemprop="copyrightYear">2019</span>
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>

@@ -101,7 +101,18 @@
 
   
 
-
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 
 
   <meta name="description" content="I played with hexo to build my first personal website on 2016. Then it was untouched for a long time until today, I decided to pick things up and try to learn some UI staff with it. This page is mainl">
@@ -205,7 +216,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">Living and learning in Raleigh</p>
+        <p class="site-subtitle"></p>
       
   </div>
 
@@ -387,7 +398,7 @@
                 
               
 
-              <time title="Created: 2018-04-23 11:05:07" itemprop="dateCreated datePublished" datetime="2018-04-23T11:05:07-04:00">2018-04-23</time>
+              <time title="Created: 2018-04-23 11:05:07" itemprop="dateCreated datePublished" datetime="2018-04-23T11:05:07-07:00">2018-04-23</time>
             
 
             
@@ -404,7 +415,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-06-23 08:25:39" itemprop="dateModified" datetime="2018-06-23T08:25:39-04:00">2018-06-23</time>
+                <time title="Modified: 2018-06-23 05:25:39" itemprop="dateModified" datetime="2018-06-23T05:25:39-07:00">2018-06-23</time>
               
             
           </span>
@@ -692,7 +703,7 @@
                 
                   <a href="/archives">
                 
-                    <span class="site-state-item-count">6</span>
+                    <span class="site-state-item-count">7</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -719,7 +730,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">7</span>
+                      
+                    
+                    <span class="site-state-item-count">8</span>
                     <span class="site-state-item-name">categories</span>
                   </a>
                 </div>
@@ -754,7 +767,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">11</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">13</span>
                     <span class="site-state-item-name">tags</span>
                   </a>
                 </div>
@@ -857,7 +874,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; 2016 &mdash; <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; 2016 &mdash; <span itemprop="copyrightYear">2019</span>
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>

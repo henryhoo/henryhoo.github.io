@@ -101,7 +101,18 @@
 
   
 
-
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 
 
   <meta name="description" content="My notes of duke online course dan ariely - predictably irrational">
@@ -212,7 +223,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">Living and learning in Raleigh</p>
+        <p class="site-subtitle"></p>
       
   </div>
 
@@ -394,7 +405,7 @@
                 
               
 
-              <time title="Created: 2018-06-08 07:24:13" itemprop="dateCreated datePublished" datetime="2018-06-08T07:24:13-04:00">2018-06-08</time>
+              <time title="Created: 2018-06-08 07:24:13" itemprop="dateCreated datePublished" datetime="2018-06-08T07:24:13-07:00">2018-06-08</time>
             
 
             
@@ -411,7 +422,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-06-27 09:26:53" itemprop="dateModified" datetime="2018-06-27T09:26:53-04:00">2018-06-27</time>
+                <time title="Modified: 2018-06-27 06:26:53" itemprop="dateModified" datetime="2018-06-27T06:26:53-07:00">2018-06-27</time>
               
             
           </span>
@@ -861,7 +872,7 @@
                 
                   <a href="/archives">
                 
-                    <span class="site-state-item-count">6</span>
+                    <span class="site-state-item-count">7</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -888,7 +899,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">7</span>
+                      
+                    
+                    <span class="site-state-item-count">8</span>
                     <span class="site-state-item-name">categories</span>
                   </a>
                 </div>
@@ -923,7 +936,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">11</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">13</span>
                     <span class="site-state-item-name">tags</span>
                   </a>
                 </div>
@@ -1026,7 +1043,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; 2016 &mdash; <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; 2016 &mdash; <span itemprop="copyrightYear">2019</span>
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
