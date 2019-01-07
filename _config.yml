@@ -26,6 +26,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - "*admin/*"
 
 # 自动生成sitemap
 sitemap:
@@ -96,6 +97,8 @@ deploy:
   email: [497018787@qq.com]
 
 theme_config:
+  custom_file_path:
+    head: source/_data/head.swig
   url: http://www.jiaxi.io
   baidu_site_verification: FKCjZBAwDZ
   baidu_analytics: 5cb1205e2ee7921b3a3636edfe6a588a
