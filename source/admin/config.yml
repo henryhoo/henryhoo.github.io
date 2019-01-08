@@ -3,7 +3,7 @@ backend:
   branch: netlify # Branch to update (optional; defaults to master)
 
 # adds an interface for drafting, reviewing, and approving posts.
-publish_mode: editorial_workflow
+# publish_mode: editorial_workflow
 
 # Netlify CMS allows users to upload images directly within the editor. For this to work, the CMS needs to know where to save them
 media_folder: "source/images/uploads" # Media files will be stored in the repo under images/uploads
