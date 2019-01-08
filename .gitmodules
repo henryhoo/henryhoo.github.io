@@ -1,4 +1,4 @@
 [submodule "themes/next"]
 	path = themes/next
 	branch = theme
-	url = git@github.com:henryhoo/henryhoo.github.io.git
+	url = https://github.com/henryhoo/henryhoo.github.io.git
