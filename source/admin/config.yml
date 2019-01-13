@@ -1,5 +1,7 @@
 backend:
-  name: git-gateway
+  # name: git-gateway
+  name: github
+  repo: henryhoo/henryhoo.github.io # Path to your GitHub repository
   branch: netlify # Branch to update (optional; defaults to master)
 
 # adds an interface for drafting, reviewing, and approving posts.
