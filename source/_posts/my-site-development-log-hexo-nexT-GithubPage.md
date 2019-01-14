@@ -64,9 +64,7 @@ Notice that this means I will start to host my site on Netlify instead of GitHub
 Given the needs to edit my page for a eaiser flow (for non coder to add things without command line), I followed completely on [this guide](https://medium.com/netlify/adding-netlify-cms-and-redirects-to-hexo-site-the-missing-pieces-c69a8ec053d1) to add a *Netlify cms page* for my personal page.
 
 #### One more thing
-Previous guide is baed on default theme called “Material”, however I am using hexo's "NexT" theme. This theme have a better support on customize head, so in order to "Add Netlify Identity Widget", we can just modify ```_config``` file to have a ```custom_file_path ```, for [example](https://github.com/henryhoo/henryhoo.github.io/commit/0a4c1b166feba74eaf72ef6b66b9aab8a22464f8), I added ```source/_data/head.swig``` as a custom head.
-
-
+Previous guide is baed on default theme called “Material”, however I am using hexo's "NexT" theme. This theme have a better support on customize head, so in order to "Add Netlify Identity Widget", we can just modify `_config` file to have a `custom_file_path `, for [example](https://github.com/henryhoo/henryhoo.github.io/commit/0a4c1b166feba74eaf72ef6b66b9aab8a22464f8), I added `source/_data/head.swig` as a custom head.
 
 ### TopX: Hottest post page (**Need Leancloud support**)
 Reference：[5.8 添加 TopX 页面](https://reuixiy.github.io/technology/computer/computer-aided-art/2017/06/09/hexo-next-optimization.html)
