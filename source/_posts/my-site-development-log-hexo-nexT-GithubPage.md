@@ -4,7 +4,8 @@ date: 2018-04-23 11:05:07
 tags:
 - hexo
 - nextT
-categories: UI
+categories:
+- UI
 ---
 I played with hexo to build my first personal website on 2016. Then it was untouched for a long time until today, I decided to pick things up and try to learn some UI staff with it.
 
@@ -68,7 +69,7 @@ menu:
   top: /top/ || signal
 ```
 
-3. Modify the new index.md for "top" page: 
+3. Modify the new index.md for "top" page:
 ```
 ---
 title: TopX

@@ -5,7 +5,8 @@ tags:
 - Leetcode
 - Algorithms
 - dynamic programming
-categories: Programming
+categories:
+- Programming
 ---
 The key for dp is to find the variables to represent the states and deduce the transition function. (aka find state -> find relation -> find constraints)
 <!-- more -->

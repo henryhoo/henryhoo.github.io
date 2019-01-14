@@ -4,7 +4,8 @@ date: 2018-05-31 21:33:59
 tags:
 - insightFinder
 - internship
-categories: Work experience
+categories:
+- Work experience
 ---
 After my summer internship at Facebook, I started to work at [insightFinder](https://insightfinder.com) during my second master's year. As a star-up company, insightFinder gave me a lot of different experience than working at a large tech company such as Facebook, and taught different things.
 <!-- more -->
