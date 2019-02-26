@@ -1,11 +1,11 @@
 ---
 title: Personal Blog based on Hexo + NexT
-date: 2018-04-23 11:05:07
+date: 2018-04-23T11:05:07.000Z
 tags:
-- hexo
-- nextT
+  - hexo
+  - nextT
 categories:
-- UI
+  - UI
 ---
 I played with hexo to build my first personal website on 2016. Then it was untouched for a long time until today, I decided to pick things up and try to learn some UI staff with it.
 
@@ -54,6 +54,17 @@ gitment:
   4. Local Search
 
 ## Customize page
+
+### CMS admin page based on Netlify
+
+#### Why Netlify
+Notice that this means I will start to host my site on Netlify instead of GitHub page, here is a good explanation of [why we want to switch to Netlify](https://yihui.name/en/2017/06/netlify-instead-of-github-pages/)
+
+#### How
+Given the needs to edit my page for a eaiser flow (for non coder to add things without command line), I followed completely on [this guide](https://medium.com/netlify/adding-netlify-cms-and-redirects-to-hexo-site-the-missing-pieces-c69a8ec053d1) to add a *Netlify cms page* for my personal page.
+
+#### One more thing
+Previous guide is baed on default theme called “Material”, however I am using hexo's "NexT" theme. This theme have a better support on customize head, so in order to "Add Netlify Identity Widget", we can just modify `_config` file to have a `custom_file_path `, for [example](https://github.com/henryhoo/henryhoo.github.io/commit/0a4c1b166feba74eaf72ef6b66b9aab8a22464f8), I added `source/_data/head.swig` as a custom head.
 
 ### TopX: Hottest post page (**Need Leancloud support**)
 Reference：[5.8 添加 TopX 页面](https://reuixiy.github.io/technology/computer/computer-aided-art/2017/06/09/hexo-next-optimization.html)
@@ -110,19 +121,19 @@ keywords: top,文章阅读量排行榜
 
 ## Learning source
 ### Hexo
-[Hexo搭建博客教程](https://thief.one/2017/03/03/Hexo搭建博客教程/)
-[Hexo+NexT 博客搭建相册](https://lovexinforever.github.io/2017/09/18/Hexo-NexT-博客搭建相册-二/)
-[打造个性超赞博客Hexo+NexT+GithubPages的超深度优化](https://reuixiy.github.io/technology/computer/computer-aided-art/2017/06/09/hexo-next-optimization.html)
-[hexo的next主题个性化配置教程](http://shenzekun.cn/hexo的next主题个性化配置教程.html)
-[hexo教程](https://www.dingxuewen.com/categories/Site/)
+* [Hexo搭建博客教程](https://thief.one/2017/03/03/Hexo搭建博客教程/)
+* [Hexo+NexT 博客搭建相册](https://lovexinforever.github.io/2017/09/18/Hexo-NexT-博客搭建相册-二/)
+* [打造个性超赞博客Hexo+NexT+GithubPages的超深度优化](https://reuixiy.github.io/technology/computer/computer-aided-art/2017/06/09/hexo-next-optimization.html)
+* [hexo的next主题个性化配置教程](http://shenzekun.cn/hexo的next主题个性化配置教程.html)
+* [hexo教程](https://www.dingxuewen.com/categories/Site/)
 
 ### Version control
-[Using Git Submodules to Manage Your Custom Hexo Theme](http://jr0cket.co.uk/hexo/using-git-submodules-for-custom-hexo-theme.html)
+* [Using Git Submodules to Manage Your Custom Hexo Theme](http://jr0cket.co.uk/hexo/using-git-submodules-for-custom-hexo-theme.html)
 
 ### SEO
-[hexo高阶教程：想让你的博客被更多的人在搜索引擎中搜到吗](https://blog.csdn.net/sunshine940326/article/details/70936988/)
-[动动手指，不限于NexT主题的Hexo优化（SEO篇](http://www.arao.me/2015/hexo-next-theme-optimize-seo/)
-[Hexo Seo优化让你的博客在google搜索排名第一](https://www.jianshu.com/p/86557c34b671)
+* [hexo高阶教程：想让你的博客被更多的人在搜索引擎中搜到吗](https://blog.csdn.net/sunshine940326/article/details/70936988/)
+* [动动手指，不限于NexT主题的Hexo优化（SEO篇](http://www.arao.me/2015/hexo-next-theme-optimize-seo/)
+* [Hexo Seo优化让你的博客在google搜索排名第一](https://www.jianshu.com/p/86557c34b671)
 
 ## Cautions
 ### Config override
@@ -149,3 +160,5 @@ This cause the theme config is missing other sections including "offset" which i
 - [x] Add SEO (Baidu + Google)
 - [x] Add TopX page
 - [ ] Add photo of post and correct photo links
+- [x] Add admin page
+- [ ] Add idea book
